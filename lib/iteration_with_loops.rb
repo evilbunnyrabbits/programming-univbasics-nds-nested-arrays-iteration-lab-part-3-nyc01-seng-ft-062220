@@ -1,10 +1,9 @@
 def join_nested_strings(src)
-  for item in array
-    for item in item
+  for arrays in src
+    for item in arrays
       if item.class == String
         puts item
       end
     end
   end
-  return strings
 end
